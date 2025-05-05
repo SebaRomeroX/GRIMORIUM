@@ -1,0 +1,66 @@
+*{
+    border: none; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+/* ---------------------- ---------*/
+
+.seccion-titulo{
+    height: 5%;
+
+    text-align: center;
+    padding-top: 0.4em;
+}
+
+.seccion-oponente{
+    height: 35%;
+
+    padding: 1em;
+
+    background-size: auto 100%; 
+    background-position: right; 
+    background-repeat: no-repeat;
+}
+
+.seccion-jugador{
+    height: 35%;
+
+    padding: 1em;
+
+    background-image: url('./img/magik-libro.jpg');
+    background-size: auto 100%; 
+    background-position: right; 
+    background-repeat: no-repeat;
+}
+
+.seccion-mensajes{
+    height: 10%;
+
+    padding: 1em;
+}
+
+
+/* --------------     -----------*/
+
+.seccion-botones{
+    height: 15%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton-skil{
+    height: 80%;
+    padding: 1em;
+
+    border-radius: .6em;
+}

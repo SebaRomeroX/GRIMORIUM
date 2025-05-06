@@ -33,7 +33,7 @@ const oponentes = [
     {
         nombre: "Guerrero desconocido",
         imagen: 'guerrero_desconocido.jpg',
-        vida: 120,
+        vida: 60,
         comportamiento: function() {          
             const acciones = [
                 {
@@ -51,7 +51,7 @@ const oponentes = [
                 {
                     nombre: 'Escudo',
                     efecto: 'defenza',
-                    valor: 5,
+                    valor: 8,
                     chance: 2
                 },
                 {

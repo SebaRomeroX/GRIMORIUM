@@ -103,7 +103,7 @@ Seteamos stats jugador
 
 function iniciarEnfrentamineto() {
     // reiniciamos vida de jugador
-    vidaJugador = 100
+    vidaJugador = 50
     
     
     // Elegimos oponente

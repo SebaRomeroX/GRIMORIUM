@@ -18,7 +18,7 @@ const listaSpells = [
     {
         nombre: 'Bloqueo',
         efecto: 'defenza',
-        valor: 10
+        valor: 8
     },
     {
         nombre: 'Esquive',
